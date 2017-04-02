@@ -1,35 +1,89 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Assignment Solution for Module 2</title>
-<link rel="stylesheet" href="css/style.css">
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML CSS Js Dev Mod3 Solution</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-<h1>Our Menu</h1>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <h1>Food, LLC</h1>
+          </div>
 
-<div class="row">
-  <div class="col-lg-4 col-md-6 col-sm-12 row_box">
-    <section>
-      <div id="chicken">Chicken</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </section>
-  </div>
-  <div class="col-lg-4 col-md-6 col-sm-12 row_box">
-    <section>
-      <div id="beef">Beef</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </section>
-  </div>
-  <div class="col-lg-4 col-md-12 col-sm-12 row_box">
-    <section>
-      <div id="sushi">Sushi</div>
-      <p>ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </section>
-  </div>
-</div>
+          <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
 
+        <div id="collapsable-nav" class="collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="chicken">
+              <a href="#chicken">Chicken</a>
+            </li>
+            <li>
+              <a href="#beef">Beef</a>
+            </li>
+            <li>
+              <a href="#sushi">Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+    <div id="main-content" class="container">
+      <h2 class="text-center">Our Menu</h2>
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 row_box">
+          <section>
+            <h3 id="chicken">Chicken</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a elit gravida, viverra nulla sed, consectetur urna. Maecenas fringilla posuere pretium. Vestibulum volutpat ex ante, id posuere nunc maximus at. In et eros finibus eros facilisis rhoncus. Nulla dolor erat, tempus vel velit quis, volutpat rhoncus diam. Fusce vitae leo eros. Morbi dapibus, arcu ut tristique sollicitudin, metus felis semper ligula, ut maximus nisl tellus ac justo. Aenean maximus magna leo, vel aliquet nisi maximus in. Vestibulum fringilla sem non tristique condimentum. Nullam efficitur nisl id odio convallis, eget gravida felis condimentum. In posuere ipsum nunc, eu ultricies enim suscipit quis. Sed sed sapien velit. Vestibulum quis risus eu augue porttitor fermentum. Proin eget neque neque. Fusce vel suscipit ipsum.<br><br>
+
+            Etiam a augue a lectus feugiat congue. Nam pretium ante nisl, commodo rhoncus lacus dignissim ut. Ut eu ornare orci, a fringilla nibh. Nunc vehicula pulvinar placerat. Fusce tristique ultricies neque, vitae dapibus mi. Curabitur viverra erat ut imperdiet semper. Maecenas tortor lacus, vestibulum ut ligula vel, venenatis placerat tellus. In tincidunt sodales lacus, nec eleifend nulla tincidunt viverra. Aenean fringilla suscipit enim. Nam elit libero, ullamcorper a metus et, pharetra convallis dui. Cras non congue sem, eget porta libero. Phasellus laoreet odio sollicitudin nisl faucibus vestibulum.<br><br>
+
+            Cras sed mi nec justo sagittis blandit vitae et sapien. Mauris cursus convallis elit, sed tincidunt ipsum auctor vitae. Fusce nec turpis vel dui efficitur tempus id ac urna. In et ornare diam, quis molestie lectus. Praesent augue est, condimentum id rhoncus in, egestas at felis. Ut mattis tellus orci, ut ullamcorper purus porta sed. Nunc volutpat consequat tellus sit amet scelerisque. Nunc ut dui ante. Curabitur ornare vitae lacus ac elementum. Morbi eleifend odio vel sagittis convallis. Maecenas blandit suscipit sodales. Etiam vehicula ex eu dapibus interdum. Nulla ac tincidunt tellus. Proin hendrerit libero eget ante blandit posuere. Curabitur commodo lobortis nisl eget suscipit.</p>
+          </section>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 row_box">
+          <section>
+            <h3 id="beef">Beef</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a elit gravida, viverra nulla sed, consectetur urna. Maecenas fringilla posuere pretium. Vestibulum volutpat ex ante, id posuere nunc maximus at. In et eros finibus eros facilisis rhoncus. Nulla dolor erat, tempus vel velit quis, volutpat rhoncus diam. Fusce vitae leo eros. Morbi dapibus, arcu ut tristique sollicitudin, metus felis semper ligula, ut maximus nisl tellus ac justo. Aenean maximus magna leo, vel aliquet nisi maximus in. Vestibulum fringilla sem non tristique condimentum. Nullam efficitur nisl id odio convallis, eget gravida felis condimentum. In posuere ipsum nunc, eu ultricies enim suscipit quis. Sed sed sapien velit. Vestibulum quis risus eu augue porttitor fermentum. Proin eget neque neque. Fusce vel suscipit ipsum.<br><br>
+
+            Etiam a augue a lectus feugiat congue. Nam pretium ante nisl, commodo rhoncus lacus dignissim ut. Ut eu ornare orci, a fringilla nibh. Nunc vehicula pulvinar placerat. Fusce tristique ultricies neque, vitae dapibus mi. Curabitur viverra erat ut imperdiet semper. Maecenas tortor lacus, vestibulum ut ligula vel, venenatis placerat tellus. In tincidunt sodales lacus, nec eleifend nulla tincidunt viverra. Aenean fringilla suscipit enim. Nam elit libero, ullamcorper a metus et, pharetra convallis dui. Cras non congue sem, eget porta libero. Phasellus laoreet odio sollicitudin nisl faucibus vestibulum.<br><br>
+
+            Cras sed mi nec justo sagittis blandit vitae et sapien. Mauris cursus convallis elit, sed tincidunt ipsum auctor vitae. Fusce nec turpis vel dui efficitur tempus id ac urna. In et ornare diam, quis molestie lectus. Praesent augue est, condimentum id rhoncus in, egestas at felis. Ut mattis tellus orci, ut ullamcorper purus porta sed. Nunc volutpat consequat tellus sit amet scelerisque. Nunc ut dui ante. Curabitur ornare vitae lacus ac elementum. Morbi eleifend odio vel sagittis convallis. Maecenas blandit suscipit sodales. Etiam vehicula ex eu dapibus interdum. Nulla ac tincidunt tellus. Proin hendrerit libero eget ante blandit posuere. Curabitur commodo lobortis nisl eget suscipit.</p>
+          </section>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 row_box">
+          <section>
+            <h3 id="sushi">Sushi</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a elit gravida, viverra nulla sed, consectetur urna. Maecenas fringilla posuere pretium. Vestibulum volutpat ex ante, id posuere nunc maximus at. In et eros finibus eros facilisis rhoncus. Nulla dolor erat, tempus vel velit quis, volutpat rhoncus diam. Fusce vitae leo eros. Morbi dapibus, arcu ut tristique sollicitudin, metus felis semper ligula, ut maximus nisl tellus ac justo. Aenean maximus magna leo, vel aliquet nisi maximus in. Vestibulum fringilla sem non tristique condimentum. Nullam efficitur nisl id odio convallis, eget gravida felis condimentum. In posuere ipsum nunc, eu ultricies enim suscipit quis. Sed sed sapien velit. Vestibulum quis risus eu augue porttitor fermentum. Proin eget neque neque. Fusce vel suscipit ipsum. <br><br>
+
+            Etiam a augue a lectus feugiat congue. Nam pretium ante nisl, commodo rhoncus lacus dignissim ut. Ut eu ornare orci, a fringilla nibh. Nunc vehicula pulvinar placerat. Fusce tristique ultricies neque, vitae dapibus mi. Curabitur viverra erat ut imperdiet semper. Maecenas tortor lacus, vestibulum ut ligula vel, venenatis placerat tellus. In tincidunt sodales lacus, nec eleifend nulla tincidunt viverra. Aenean fringilla suscipit enim. Nam elit libero, ullamcorper a metus et, pharetra convallis dui. Cras non congue sem, eget porta libero. Phasellus laoreet odio sollicitudin nisl faucibus vestibulum. <br><br>
+
+            Cras sed mi nec justo sagittis blandit vitae et sapien. Mauris cursus convallis elit, sed tincidunt ipsum auctor vitae. Fusce nec turpis vel dui efficitur tempus id ac urna. In et ornare diam, quis molestie lectus. Praesent augue est, condimentum id rhoncus in, egestas at felis. Ut mattis tellus orci, ut ullamcorper purus porta sed. Nunc volutpat consequat tellus sit amet scelerisque. Nunc ut dui ante. Curabitur ornare vitae lacus ac elementum. Morbi eleifend odio vel sagittis convallis. Maecenas blandit suscipit sodales. Etiam vehicula ex eu dapibus interdum. Nulla ac tincidunt tellus. Proin hendrerit libero eget ante blandit posuere. Curabitur commodo lobortis nisl eget suscipit.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
-
